@@ -13,8 +13,9 @@
 
         #cabecalho {
             background-color: rgb(116, 116, 223);
-            height: 40px;
+            height: 43px;
             margin: 0;
+            display: flex;
       
         }
 
@@ -22,7 +23,19 @@
             display: flex;
             color: white;
             font-style:initial;
-            margin-left:  5px;
+            align-items: center;
+            margin-left: 15px;
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-right: 0;
+        }
+        #cabecalho div{
+            display: flex;
+            color: white;
+            font-style:initial;
+            display: flex;
+            align-items: center;
+            margin-left:  15px;
             margin-top: 0;
             margin-bottom: 0;
             margin-right: 0;
@@ -38,7 +51,7 @@
         #texto {
             color: gray;
             display: block;
-            margin: 10px;
+            padding: 20px;
         }
         #texto div.a6{
             justify-content: space-between;
@@ -57,13 +70,14 @@
 <body>
 
     <div id="cabecalho">
+        <div> = </div>
         <h1 class="titulo">Projeto</h1>
     </div>
     <br>
     <div id="foto_casa">
         <img src="casa.jpg">
     </div>
-    <br>
+  
     <div id="texto">
         <div class="a6">
             <div class="a1">Cabo Frio - RJ</div>
